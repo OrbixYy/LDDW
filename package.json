@@ -1,0 +1,44 @@
+{
+  "name": "lddw",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "@nuxtjs/firebase": "^7.6.1",
+    "@nuxtjs/pwa": "^3.0.2",
+    "@nuxtjs/robots": "^2.5.0",
+    "@nuxtjs/sentry": "^5.1.5",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@sentry/tracing": "^6.15.0",
+    "child_process": "^1.0.2",
+    "core-js": "^3.6.5",
+    "firebase": "^8.6.8",
+    "firebase-functions": "^3.14.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "net": "^1.0.2",
+    "nuxt": "^2.14.6",
+    "nuxt-mq": "^2.0.2",
+    "tls": "^0.0.1",
+    "vue-material-design-icons": "^4.11.0",
+    "vue-undraw": "^2.0.13",
+    "vuelidate": "^0.7.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/google-fonts": "^1.3.0",
+    "@nuxtjs/tailwindcss": "^4.1.3",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.26.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "postcss": "^8.3.0"
+  }
+}
